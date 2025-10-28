@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="dist/assets/css/style.css">
+   <title>My Twig Site</title>
+  </head>
+  <body>
+   <div class='max-w-[1440px] w-full mx-auto px-2'>
+        <header class='w-full mt-24'>
+
+         
+            <div class="absolute -top-16 -left-16 w-48 h-48 bg-blue-200 rounded-full opacity-50 "></div>
+            <div class="absolute top-10 right-6 w-32 h-32 bg-blue-300 rounded-full opacity-50"></div>
+            <div class='flex flex-col justify-center items-center'>
+                <h2>MyTicketApp</h2>
+                <p>...Seamlessly create, track and resolve your tasks all in one place.</p>
+            </div>
+        </header>
+           
+           
+        <main class='w-full mx-auto flex flex-col justify-center items-center mt-4'>
+          <div class='flex flex-col gap-3'>
+               <a href="/auth/signup"><button class="px-4 py-2 bg-blue-500 text-white rounded">Get Started</button></a>
+               <a href="/auth/login"><button class="px-4 py-2 bg-gray-500 text-white rounded">Login</button></a>
+          </div>
+
+            
+            <section class='w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 mt-16'>
+                <div class="bg-yellow-500 flex justify-center items-center min-h-[150px]">
+                   <section class='bg-white rounded-md'>
+                       <h4 class='text-black'>Create new tickets</h4>
+                       <p class='text-black'>Easily add new tickets with a high level of priority. </p>
+                   </section>
+                </div>
+                <div class='bg-pink-500'>
+                    <section>
+                        <h4>Track</h4>
+                        <p>Visualise your tricket status and update in realtime. </p>
+                    </section>
+                </div>
+                <div>
+                    <h4>Team Collaboration</h4>
+                    <p>Work with your team efficiently and keep all updates and communication centralised.</p>
+                </div>
+            </section>
+
+            <svg
+             class="absolute bottom-0 w-full aspect-[1440/320]"
+              viewBox="0 0 1440 320"
+             xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                  fill="#3b82f6"
+                   fillOpacity="1"
+                   d="M0,224L60,197.3C120,171,240,117,360,106.7C480,96,600,128,720,160C840,192,960,224,1080,224C1200,224,1320,192,1380,176L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+                 ></path>
+          </svg>
+  
+     </main>
+
+    </div>
+  </body>
+</html>
